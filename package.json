@@ -1,0 +1,21 @@
+{
+  "name": "alyz-bot",
+  "version": "3.0.0",
+  "description": "ALYZ BOT - Multi Bot WhatsApp Platform",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.8",
+    "axios": "^1.7.0",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "pino": "^9.0.0",
+    "sharp": "^0.33.0"
+  }
+}

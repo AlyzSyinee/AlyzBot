@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: alyz-bot
+    runtime: node
+    plan: starter
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: 20
+    disk:
+      name: auth
+      mountPath: /opt/render/project/src/auth
+      sizeGB: 1
