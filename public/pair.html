@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>PAIR DEVICE</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<a class="back" href="/welcome.html" data-nav aria-label="Kembali">&larr;</a>
+<div class="wrap">
+  <main class="card">
+    <div class="card-bar"><span>ALYZ // PAIR</span><span class="dots"><b></b><b></b><b></b></span></div>
+    <div class="card-body">
+      <div class="head center">
+        <h1>PAIR DEVICE</h1>
+        <p class="sub">Real pairing code</p>
+      </div>
+
+      <input id="number" class="input-neu" type="tel" inputmode="numeric" value="62"
+             placeholder="6283xxxxxxx" autocomplete="off" maxlength="16">
+      <div class="gap"></div>
+      <button id="gen" class="btn" type="button">GENERATE CODE</button>
+
+      <div id="pairCode" class="pair-code" aria-live="polite"></div>
+      <div id="state" class="state" aria-live="polite"></div>
+
+      <p class="desc">WA &gt; Linked Device &gt; Link with phone number &gt; Masukkan kode. Jeda 30 detik anti limit.</p>
+      <p class="foot">v3.0 &bull; SF &bull; NEUBRUTALISM</p>
+    </div>
+  </main>
+</div>
+<script src="/js/common.js"></script>
+<script src="/js/pair.js"></script>
+</body>
+</html>

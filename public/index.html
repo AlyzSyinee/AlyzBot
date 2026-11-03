@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<title>ALYZ SECURE</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<div class="wrap">
+  <main class="card">
+    <div class="card-bar"><span>ALYZ // SECURE</span><span class="dots"><b></b><b></b><b></b></span></div>
+    <div class="card-body center">
+      <h1>ALYZ SECURE</h1>
+      <p class="sub">Hold to unlock</p>
+
+      <div class="fingerprint-wrap" id="holdZone" role="button" tabindex="0" aria-label="Tahan untuk membuka">
+        <div class="fp-inner">
+          <span class="fp-ridge r1"></span><span class="fp-ridge r2"></span><span class="fp-ridge r3"></span>
+          <div class="fp-line"></div>
+        </div>
+      </div>
+
+      <div class="progress-track">
+        <div class="progress-fill" id="pfill"></div>
+        <div class="progress-line" id="pline"></div>
+      </div>
+      <div class="percent" id="percent">0%</div>
+    </div>
+  </main>
+</div>
+<script src="/js/common.js"></script>
+<script src="/js/login.js"></script>
+</body>
+</html>
